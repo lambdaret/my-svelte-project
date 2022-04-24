@@ -8,8 +8,14 @@ npm run dev
 ## github
 ```
 git init
-git config user.name=lambdaret
-git config user.email=lambdaret@gmail.com
+git config user.name lambdaret
+git config user.email lambdaret@gmail.com
+git config core.autocrlf true
+git add .
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/lambdaret/my-svelte-project.git
+git push -u origin master
 
 ```
 
